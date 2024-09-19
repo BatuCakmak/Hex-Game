@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="375.0" prefWidth="600.0" style="-fx-background-color: darkred;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.hexgame.GameModel">
+   <children>
+      <Polygon fill="DODGERBLUE" layoutX="14.0" layoutY="127.0" points="-49.599998474121094, 62.600006103515625, -49.599998474121094, 18.600006103515625, 7.62939453125E-6, -11.399993896484375, 48.399993896484375, 18.600006103515625, 48.399993896484375, 62.600006103515625, 7.62939453125E-6, 89.60000610351562" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fill="DODGERBLUE" layoutX="238.0" layoutY="128.0" points="-49.599998474121094, 62.600006103515625, -49.599998474121094, 18.600006103515625, 7.62939453125E-6, -11.399993896484375, 48.399993896484375, 18.600006103515625, 48.399993896484375, 62.600006103515625, 7.62939453125E-6, 89.60000610351562" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fill="DODGERBLUE" layoutX="127.0" layoutY="128.0" points="-49.599998474121094, 62.600006103515625, -49.599998474121094, 18.600006103515625, 7.62939453125E-6, -11.399993896484375, 48.399993896484375, 18.600006103515625, 48.399993896484375, 62.600006103515625, 7.62939453125E-6, 89.60000610351562" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fill="DODGERBLUE" layoutX="293.0" layoutY="219.0" points="-49.599998474121094, 62.600006103515625, -49.599998474121094, 18.600006103515625, 7.62939453125E-6, -11.399993896484375, 48.399993896484375, 18.600006103515625, 48.399993896484375, 62.600006103515625, 7.62939453125E-6, 89.60000610351562" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fill="DODGERBLUE" layoutX="349.0" layoutY="128.0" points="-49.599998474121094, 62.600006103515625, -49.599998474121094, 18.600006103515625, 7.62939453125E-6, -11.399993896484375, 48.399993896484375, 18.600006103515625, 48.399993896484375, 62.600006103515625, 7.62939453125E-6, 89.60000610351562" stroke="BLACK" strokeType="INSIDE" />
+      <Button fx:id="playbutton" layoutX="268.0" layoutY="140.0" mnemonicParsing="false" onAction="#five" prefHeight="31.0" prefWidth="62.0" style="-fx-background-color: white;" text="5x5">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Button>
+      <Label layoutX="29.0" layoutY="28.0" prefHeight="88.0" prefWidth="570.0" text="CLICK BUTTON TO CHOOSE GAME TYPE AND PLAY" textAlignment="CENTER">
+         <font>
+            <Font name="Arial Black" size="19.0" />
+         </font>
+      </Label>
+      <Button fx:id="playbutton" layoutX="268.0" layoutY="205.0" mnemonicParsing="false" onAction="#eleven" prefHeight="31.0" prefWidth="62.0" style="-fx-background-color: white;" text="11x11">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Button>
+      <Button fx:id="playbutton" layoutX="269.0" layoutY="268.0" mnemonicParsing="false" onAction="#seventeen" prefHeight="31.0" prefWidth="62.0" style="-fx-background-color: white;" text="17x17">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Button>
+      <Polygon fill="DODGERBLUE" layoutX="472.0" layoutY="127.0" points="-49.599998474121094, 62.600006103515625, -49.599998474121094, 18.600006103515625, 7.62939453125E-6, -11.399993896484375, 48.399993896484375, 18.600006103515625, 48.399993896484375, 62.600006103515625, 7.62939453125E-6, 89.60000610351562" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fill="DODGERBLUE" layoutX="408.0" layoutY="219.0" points="-49.599998474121094, 62.600006103515625, -49.599998474121094, 18.600006103515625, 7.62939453125E-6, -11.399993896484375, 48.399993896484375, 18.600006103515625, 48.399993896484375, 62.600006103515625, 7.62939453125E-6, 89.60000610351562" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fill="DODGERBLUE" layoutX="180.0" layoutY="219.0" points="-49.599998474121094, 62.600006103515625, -49.599998474121094, 18.600006103515625, 7.62939453125E-6, -11.399993896484375, 48.399993896484375, 18.600006103515625, 48.399993896484375, 62.600006103515625, 7.62939453125E-6, 89.60000610351562" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fill="DODGERBLUE" layoutX="67.0" layoutY="219.0" points="-49.599998474121094, 62.600006103515625, -49.599998474121094, 18.600006103515625, 7.62939453125E-6, -11.399993896484375, 48.399993896484375, 18.600006103515625, 48.399993896484375, 62.600006103515625, 7.62939453125E-6, 89.60000610351562" stroke="BLACK" strokeType="INSIDE" />
+      <Polygon fill="DODGERBLUE" layoutX="520.0" layoutY="219.0" points="-49.599998474121094, 62.600006103515625, -49.599998474121094, 18.600006103515625, 7.62939453125E-6, -11.399993896484375, 48.399993896484375, 18.600006103515625, 48.399993896484375, 62.600006103515625, 7.62939453125E-6, 89.60000610351562" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</AnchorPane>
